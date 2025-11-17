@@ -1,0 +1,17 @@
+# Ignore local development files
+docker/pgdata/
+*.core
+*.fasl
+.initialized
+
+# Ignore git files
+.git/
+.gitignore
+
+# Ignore documentation
+README.md
+LICENSE
+
+# Ignore tests
+tests.lisp
+
